@@ -208,3 +208,11 @@ The code is modular and reproducible:
 
 - Scripts for automation  
 - Notebooks for exploration and documentation  
+
+## Acknowledgements
+
+This project incorporates components and workflows inspired by the StructureMap pipeline developed by the original authors. StructureMap is publicly available and distributed under an open-source license. The original repository and documentation can be found at:
+
+https://github.com/MannLabs/structuremap
+
+Some functions and analytical steps used in this project are adaptations or extensions of the original StructureMap implementation. All credit for the development of StructureMap and its underlying methodology belongs to its authors.
