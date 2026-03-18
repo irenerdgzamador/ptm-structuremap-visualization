@@ -140,9 +140,9 @@ S:\U_Proteomica\LABS\LAB_BI\Proyecto_IR_PTMs\StructureMap_output\plots
 
 Option A – Terminal:
 
-cd project_ptms
-env_py38\Scripts\activate.bat
-python run_preprocessing.py
+	cd project_ptms
+	env_py38\Scripts\activate.bat
+	python run_preprocessing.py
 
 
 
