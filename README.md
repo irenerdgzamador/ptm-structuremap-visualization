@@ -45,10 +45,14 @@ project_ptms/
 
 Create and activate a virtual environment (Windows):
 
-cd C:\path\to\project_ptms
-py -3.8 -m venv env_py38
-env_py38\Scripts\activate.bat
-pip install -r requirements.txt
+	cd C:\path\to\project_ptms
+
+	py -3.8 -m venv env_py38
+
+	env_py38\Scripts\activate.bat
+
+	pip install -r requirements.txt
+
 
 
 In VS Code:
