@@ -1,0 +1,9 @@
+ipykernel
+numpy
+pandas
+structuremap
+pyyaml
+h5py
+nbformat>=4.2.0
+py3Dmol
+gemmi

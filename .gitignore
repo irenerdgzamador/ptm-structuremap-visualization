@@ -1,0 +1,11 @@
+data/raw/
+data/processed/
+env_py38/
+__pycache__/
+*.pyc
+*.cif
+*.pae
+*.html
+*.pdf
+*.png
+4.2.0

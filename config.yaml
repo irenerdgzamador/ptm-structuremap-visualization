@@ -1,0 +1,12 @@
+# Configuration file for the PTM preprocessing pipeline
+
+# Folder containing the raw input files (.csv or .tsv)
+input_folder: "data/raw"
+
+# Folder where processed files will be saved
+output_folder: "data/processed"
+
+# File separator:
+#   ","  for CSV files
+#   "\t" for TSV files
+separator: "\t"
