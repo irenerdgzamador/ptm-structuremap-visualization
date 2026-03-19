@@ -1,0 +1,91 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "O55143",
+  "features": [
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 575,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 594,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Interaction with HAX1",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 787,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 807,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Interaction with PLN",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P04191"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 788,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1044,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Interaction with TMEM64 and PDIA3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23395171"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 931,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 942,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Interaction with PLN",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P04191"
+        }
+      ]
+    }
+  ],
+  "extraAttributes": {
+    "uniParcId": "UPI0000027AE6"
+  }
+}

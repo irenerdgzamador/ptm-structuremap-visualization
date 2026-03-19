@@ -1,0 +1,199 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q02566",
+  "features": [
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 32,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Myosin N-terminal SH3-like",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU01190"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 85,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 780,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Myosin motor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00782"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 783,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 812,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "IQ",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00116"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 657,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 679,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Actin-binding"
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 759,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 773,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Actin-binding"
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 790,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 807,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Calmodulin-binding",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 816,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 833,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Calmodulin-binding",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 1909,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1938,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Coiled coil",
+      "location": {
+        "start": {
+          "value": 842,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1938,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Coiled coil",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 1925,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1938,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Basic and acidic residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    }
+  ],
+  "extraAttributes": {
+    "uniParcId": "UPI0000029586"
+  }
+}

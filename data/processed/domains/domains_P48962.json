@@ -1,0 +1,93 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P48962",
+  "features": [
+    {
+      "type": "Repeat",
+      "location": {
+        "start": {
+          "value": 6,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 98,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Solcar 1"
+    },
+    {
+      "type": "Repeat",
+      "location": {
+        "start": {
+          "value": 111,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 201,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Solcar 2"
+    },
+    {
+      "type": "Repeat",
+      "location": {
+        "start": {
+          "value": 212,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 297,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Solcar 3"
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 235,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 240,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P12235"
+        }
+      ]
+    },
+    {
+      "type": "Motif",
+      "location": {
+        "start": {
+          "value": 235,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 240,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Nucleotide carrier signature motif",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P02722"
+        }
+      ]
+    }
+  ],
+  "extraAttributes": {
+    "uniParcId": "UPI0000023829"
+  }
+}
