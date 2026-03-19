@@ -106,6 +106,7 @@ Create and activate a virtual environment (CMD):
 VS Code setup:
 
 1. File> Open Folder> select project folder
+2. Open `run_structuremap.ipynb` notebook
 2. View > Command Palette > Python: Select Interpreter  
 3. Choose the path to python inside the project folder: env_py38\Scripts\python.exe  
 4. Confirm the Python 3.8 version appears in the top-right  
