@@ -28,7 +28,7 @@ project_ptms/
     config.yaml
     run_preprocessing.py
     requirements.txt
-    env_py38/
+    environment_with_python3.8/
     src/
         utils_build_ptm_table.py
     data/
@@ -93,9 +93,9 @@ Create and activate a virtual environment (CMD):
 
 	cd C:\path\to\project_ptms_folder
 
-	py -3.8 -m venv env_py38
+	py -3.8 -m venv environment_with_python3.8
 
-	env_py38\Scripts\activate.bat
+	environment_with_python3.8\Scripts\activate.bat
 
 	python -m pip install --upgrade pip
 
@@ -184,7 +184,7 @@ All outputs are saved in the folder defined in the notebook (modify the path as 
 Option A – Terminal:
 
 	cd project_ptms
-	env_py38\Scripts\activate.bat
+	environment_with_python3.8\Scripts\activate.bat
 	python run_preprocessing.py
 
 
