@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ptmview — plots</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: system-ui, sans-serif;
+            background: #f8f4fc;
+            color: #5a5a7a;
+            padding: 40px 20px;
+        }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 36px; font-weight: 300; letter-spacing: 4px; color: #6a6a9a; }
+        .subtitle { font-size: 13px; letter-spacing: 3px; color: #9a9ab8; margin-top: 6px; }
+        .section {
+            max-width: 800px;
+            margin: 0 auto 24px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 24px 32px;
+            box-shadow: 0 2px 12px rgba(100,90,160,0.08);
+        }
+        h2 {
+            font-size: 15px;
+            font-weight: 500;
+            color: #7a7aaa;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ece8f8;
+        }
+        .protein-group { display: flex; gap: 12px; flex-wrap: wrap; }
+        a.btn {
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        a.btn:hover { opacity: 0.75; }
+        .atp  { background: #e8e0f8; color: #6a5a9a; }
+        .myh  { background: #fce8f4; color: #9a5a7a; }
+        .got  { background: #e4f4ec; color: #4a8a6a; }
+        footer {
+            text-align: center;
+            font-size: 11px;
+            color: #b0b0c8;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ptmview</h1>
+    <p class="subtitle">PTM STRUCTURAL VISUALIZATION</p>
+</header>
+
+<div class="section">
+    <h2>IDR — 1D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="IDR_1D/O55143_IDR_1D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="IDR_1D/O70468_IDR_1D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="IDR_1D/P05202_IDR_1D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>IDR — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="IDR_3D/O55143_IDR_3D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="IDR_3D/O70468_IDR_3D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="IDR_3D/P05202_IDR_3D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>PTMs — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="PTMs_3D/O55143_3D_PTMs.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="PTMs_3D/O70468_3D_PTMs.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="PTMs_3D/P05202_3D_PTMs.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Domains — 1D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="domains_1D/O55143_domains_PTMs_1D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="domains_1D/O70468_domains_PTMs_1D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="domains_1D/P05202_domains_PTMs_1D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Domains — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="domains_3D/O55143_domains_PTMs_3D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="domains_3D/O70468_domains_PTMs_3D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="domains_3D/P05202_domains_PTMs_3D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>pLDDT — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="pLDDT_3D/O55143_3D_pLDDT.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="pLDDT_3D/O70468_3D_pLDDT.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="pLDDT_3D/P05202_3D_pLDDT.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>pPSE — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="pPSE_3D/O55143_3D_pPSE.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="pPSE_3D/O70468_3D_pPSE.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="pPSE_3D/P05202_3D_pPSE.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>pPSE + PTMs — 1D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="pPSE_PTMs_1D/O55143_pPSE_PTMs_1D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="pPSE_PTMs_1D/O70468_pPSE_PTMs_1D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="pPSE_PTMs_1D/P05202_pPSE_PTMs_1D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>pPSE + PTMs — 3D</h2>
+    <div class="protein-group">
+        <a class="btn atp" href="pPSE_PTMs_3D/O55143_pPSE_PTMs_3D.html">AT2A2 (O55143)</a>
+        <a class="btn myh" href="pPSE_PTMs_3D/O70468_pPSE_PTMs_3D.html">MYBPC3 (O70468)</a>
+        <a class="btn got" href="pPSE_PTMs_3D/P05202_pPSE_PTMs_3D.html">GOT2 (P05202)</a>
+    </div>
+</div>
+
+<footer>ptmview · PTM Structural Visualization</footer>
+
+</body>
+</html>
