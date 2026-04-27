@@ -1,3 +1,4 @@
+![descripción](ptmview_banner_helix.svg)
 # PTM PREPROCESSING & STRUCTUREMAP PIPELINE
 
 This project processes raw peptide modification files, builds a binary PTM table, integrates it with AlphaFold structural models using StructureMap, and generates 1D/3D visualizations for downstream analysis.
